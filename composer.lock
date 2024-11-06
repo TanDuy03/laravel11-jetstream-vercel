@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "febe790ed4e78cf1b1757f0604f48290",
+    "content-hash": "b2232fa660c45c6b1520e8d12ab95653",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -316,16 +316,16 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "4.1.0",
+            "version": "4.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "2377cd41609aa51bee822c8d207317a3f363a558"
+                "reference": "dadd35300837a3a2184bd47d403333b15d0a9bd0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/2377cd41609aa51bee822c8d207317a3f363a558",
-                "reference": "2377cd41609aa51bee822c8d207317a3f363a558",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/dadd35300837a3a2184bd47d403333b15d0a9bd0",
+                "reference": "dadd35300837a3a2184bd47d403333b15d0a9bd0",
                 "shasum": ""
             },
             "require": {
@@ -338,16 +338,16 @@
                 "doctrine/coding-standard": "12.0.0",
                 "fig/log-test": "^1",
                 "jetbrains/phpstorm-stubs": "2023.2",
-                "phpstan/phpstan": "1.11.7",
+                "phpstan/phpstan": "1.12.6",
                 "phpstan/phpstan-phpunit": "1.4.0",
                 "phpstan/phpstan-strict-rules": "^1.6",
-                "phpunit/phpunit": "10.5.28",
+                "phpunit/phpunit": "10.5.30",
                 "psalm/plugin-phpunit": "0.19.0",
                 "slevomat/coding-standard": "8.13.1",
                 "squizlabs/php_codesniffer": "3.10.2",
                 "symfony/cache": "^6.3.8|^7.0",
                 "symfony/console": "^5.4|^6.3|^7.0",
-                "vimeo/psalm": "5.24.0"
+                "vimeo/psalm": "5.25.0"
             },
             "suggest": {
                 "symfony/console": "For helpful console commands such as SQL execution and import of files."
@@ -404,7 +404,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/dbal/issues",
-                "source": "https://github.com/doctrine/dbal/tree/4.1.0"
+                "source": "https://github.com/doctrine/dbal/tree/4.2.1"
             },
             "funding": [
                 {
@@ -420,7 +420,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-08-15T07:37:07+00:00"
+            "time": "2024-10-10T18:01:27+00:00"
         },
         {
             "name": "doctrine/deprecations",
@@ -2523,20 +2523,20 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "3.8.0",
+            "version": "3.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "bbd3eef89af8ba66a3aa7952b5439168fbcc529f"
+                "reference": "10ac0aa86b8062219ce21e8189123d611ca3ecd9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/bbd3eef89af8ba66a3aa7952b5439168fbcc529f",
-                "reference": "bbd3eef89af8ba66a3aa7952b5439168fbcc529f",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/10ac0aa86b8062219ce21e8189123d611ca3ecd9",
+                "reference": "10ac0aa86b8062219ce21e8189123d611ca3ecd9",
                 "shasum": ""
             },
             "require": {
-                "carbonphp/carbon-doctrine-types": "*",
+                "carbonphp/carbon-doctrine-types": "<100.0",
                 "ext-json": "*",
                 "php": "^8.1",
                 "psr/clock": "^1.0",
@@ -2625,7 +2625,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-08-19T06:22:39+00:00"
+            "time": "2024-11-03T16:02:24+00:00"
         },
         {
             "name": "nette/schema",
@@ -2835,16 +2835,16 @@
         },
         {
             "name": "ntanduy/cloudflare-d1-database",
-            "version": "v0.1.0",
+            "version": "v0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TanDuy03/cloudflare-d1-database.git",
-                "reference": "138ba82a2361116be1f84bfbcbddd964c89bf37b"
+                "reference": "b54a082fbb48c4f05e9099ef3968b890ef39a313"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TanDuy03/cloudflare-d1-database/zipball/138ba82a2361116be1f84bfbcbddd964c89bf37b",
-                "reference": "138ba82a2361116be1f84bfbcbddd964c89bf37b",
+                "url": "https://api.github.com/repos/TanDuy03/cloudflare-d1-database/zipball/b54a082fbb48c4f05e9099ef3968b890ef39a313",
+                "reference": "b54a082fbb48c4f05e9099ef3968b890ef39a313",
                 "shasum": ""
             },
             "require": {
@@ -2902,9 +2902,15 @@
             ],
             "support": {
                 "issues": "https://github.com/TanDuy03/cloudflare-d1-database/issues",
-                "source": "https://github.com/TanDuy03/cloudflare-d1-database/tree/v0.1.0"
+                "source": "https://github.com/TanDuy03/cloudflare-d1-database/tree/v0.2.0"
             },
-            "time": "2024-08-22T00:39:14+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/TanDuy03",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-11-05T05:59:30+00:00"
         },
         {
             "name": "nunomaduro/termwind",
