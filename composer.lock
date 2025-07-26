@@ -2955,9 +2955,10 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/utils/issues",
+            },
+            "time": "2025-03-30T21:06:30+00:00"
                 "source": "https://github.com/nette/utils/tree/v4.0.7"
             },
-            "time": "2025-06-03T04:55:08+00:00"
         },
         {
             "name": "nikic/php-parser",
